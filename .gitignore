@@ -27,3 +27,18 @@ tmp/
 # Uploaded user content (keep structure, ignore files)
 assets/img/uploads/*
 !assets/img/uploads/.gitkeep
+
+# Sensitive data - NEVER commit these
+admin/config.php
+admin/data/users.json
+admin/data/app.db
+admin/data/notify.json
+admin/data/employees.json
+admin/data/quotes.json
+admin/data/messages.json
+private/config.json
+private/
+admin/data/snapshots/
+*.sqlite
+*.db
+admin/data/ext.json
