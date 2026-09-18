@@ -1,42 +1,86 @@
-# 7 Boys® — Rubu Al Quds (7boysjo.com)
+# 🐴 7 Boys® — Rubu Al Quds
 
-Premium Food Trading & Distribution — Since 1966
+> Premium Food Trading & Distribution Since 1966
 
-## Stack
-- PHP 8.3 (Hostinger, LiteSpeed)
-- Dynamic rendering: `admin/config.php` → `render_home()` / `render_category()` etc.
-- No static build — `index.php` renders live on every request
-- LiteSpeed cache disabled (always fresh)
+<div align="center">
 
-## Structure
+[![7 Boys](https://img.shields.io/badge/7%20Boys-Rubu%20Al%20Quds-2d6a4f?style=for-the-badge)](https://7boysjo.com)
+[![PHP](https://img.shields.io/badge/PHP-8.3-777bb4?style=flat-square&logo=php)](https://php.net)
+[![LiteSpeed](https://img.shields.io/badge/LiteServer-Hostinger-00b894?style=flat-square&logo=litespeed)](#)
+[![Stars](https://img.shields.io/github/stars/7boys/website?style=social)](https://github.com/7boys/website)
+
+</div>
+
+## 📋 About
+
+7 Boys is a Jordanian premium food trading and distribution company based in Amman, established in 1966. This repository contains the full source code for our corporate website and product catalog.
+
+## 🚀 Features
+
+- 🛒 **Product Catalog** — Dynamic product listing with categories and brands
+- 🔍 **Search** — Full-text search across all products
+- 📊 **Quote System** — Request and manage quotes
+- 💬 **Live Chat** — Real-time customer support
+- 🌐 **Multi-language** — Arabic & English support
+- 📱 **Responsive** — Mobile-first design
+- ⚡ **API** — RESTful API for integrations
+- 🔒 **Security** — CSP, HSI, and more
+
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Backend** | PHP 8.3 |
+| **Server** | LiteSpeed (Hostinger) |
+| **Frontend** | Vanilla HTML/CSS/JS |
+| **Data** | JSON (migration to MySQL in progress) |
+| **Cache** | File-based with filemtime versioning |
+
+## 📁 Structure
+
 ```
 public_html/
-├── index.php              # Home (dynamic)
-├── brands.php / category.php / product.php / story.php / contact.php / quote.php
-├── search.php / chat.php / api/products.php
+├── index.php          # Home page (dynamic)
 ├── assets/
-│   ├── css/hdr3.css       # Single canonical stylesheet (v via filemtime)
-│   ├── js/ (main.js, carousel.js, chat.js, quote_cart.js, header_search.js, lang.js, search.js)
-│   ├── img/ (prod-*.jpg, brand-*, logo.png)
-│   └── data/ (mirror of admin/data)
-├── admin/                 # Canonical admin panel
-│   ├── index.php / login.php / config.php / do_publish.php
-│   └── data/ (products.json, brands.json, categories.json, settings.json)
-├── panel/                 # Legacy redirect → /admin/ (do not use)
-└── backups/               # Pre-cleanup archives
+│   ├── css/           # Stylesheets (hdr3.css)
+│   ├── js/            # JavaScript modules
+│   └── img/           # Product images
+├── admin/             # Admin panel
+│   ├── config.php     # Configuration (gitignored)
+│   ├── index.php      # Dashboard
+│   └── data/          # Data files (gitignored)
+├── api/               # REST API
+│   └── v1/            # API v1 endpoints
+└── ...
 ```
 
-## Admin
-- URL: `/admin/` (302 → login.php if not authenticated)
-- Data: `admin/data/*.json`
-- Publish: `admin/do_publish.php` (auto via shell_exec, no 500)
+## 🔐 Security
 
-## Deploy
-- Host: `u144908550@82.25.83.1:65002` (sshpass)
-- Docroot: `/home/u144908550/domains/7boysjo.com/public_html`
-- CSS versioning: `hdr3.css?v=filemtime` (auto cache-bust)
-- After CSS/JS change: `touch assets/css/hdr3.css` to bump version
+- HTTPS forced with HSTS
+- Content Security Policy (CSP) headers
+- X-Frame-Options: SAMEORIGIN
+- SQL injection prevention via PDO prepared statements
+- XSS prevention via output encoding
+- CSRF protection on forms
+- Rate limiting on API endpoints
 
-## Backups
-- `backups/backup_before_cleanup_*.tar.gz` — full pre-cleanup snapshot
-- `backups/panel_archive/` — legacy panel files
+## ⚙️ Setup
+
+1. Clone the repository
+2. Create a new MySQL database on your hostinger panel
+3. Update the database credentials in your hosting control panel
+4. Import the data schema (migration scripts included)
+
+## 📜 License
+
+© 1966–2026 Rubu Al Quds for Trading & Food Industries (7 Boys®). All rights reserved.
+
+---
+
+<div align="center">
+
+**🐴 Premium Quality Since 1966**
+
+[![Visit Us](https://img.shields.io/badge/Visit-7boysjo.com-2d6a4f?style=for-the-badge)](https://7boysjo.com)
+
+</div>
