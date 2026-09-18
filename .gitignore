@@ -1,0 +1,29 @@
+# Sensitive files
+.env
+.my.cnf
+
+# Backups
+backups/
+backups*/
+*.bak*
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+php_err.lock
+
+# Cache
+cache/
+tmp/
+
+# Uploaded user content (keep structure, ignore files)
+assets/img/uploads/*
+!assets/img/uploads/.gitkeep

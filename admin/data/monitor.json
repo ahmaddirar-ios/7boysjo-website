@@ -1,0 +1,1 @@
+{"ok":true,"at":"2026-09-09T13:59:02+00:00","checks":{"home":{"ok":true,"ms":100},"api":{"ok":true,"ms":29},"db":{"ok":true,"ms":1},"disk":{"ok":true,"ms":0},"ssl":{"ok":true,"ms":2}},"fails":0}

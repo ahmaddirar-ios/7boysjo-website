@@ -1,0 +1,10 @@
+# Block direct web access to admin internals
+<FilesMatch "\.(json|log|bak)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^(config\.php|do_publish\.php|do_publish_core\.php|header_control\.php)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "\.(db|sqlite|sqlite3)$" >
+  Require all denied
+</FilesMatch>

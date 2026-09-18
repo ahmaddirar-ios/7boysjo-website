@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>404 — 7 Boys® | Rubu Al Quds</title>
+<link rel="stylesheet" href="/assets/css/hdr3.css">
+<style>
+.notfound{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:40px 20px;background:var(--bg,#f8f7f3)}
+.nf-card{background:var(--card,#fff);border:1px solid var(--card-line,#e8ece7);border-radius:24px;box-shadow:0 20px 60px rgba(46,80,55,.10);padding:56px 40px;max-width:520px;width:100%;text-align:center}
+.nf-404{font-family:'Sora',sans-serif;font-size:96px;font-weight:800;letter-spacing:-.04em;color:var(--green,#0e4a2a);line-height:1;margin:0}
+.nf-title{font-size:20px;font-weight:700;color:var(--ink);margin:12px 0 8px}
+.nf-desc{color:var(--muted);line-height:1.6;margin:0 0 28px;font-size:14px}
+.nf-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.nf-actions a{padding:12px 24px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none;transition:.2s}
+.nf-primary{background:var(--green,#0e4a2a);color:#fff}
+.nf-primary:hover{background:#1a6b3a}
+.nf-secondary{background:var(--card,#fff);color:var(--ink);border:1.5px solid var(--line)}
+.nf-secondary:hover{border-color:var(--green);color:var(--green)}
+@media(max-width:560px){.nf-404{font-size:72px}.nf-card{padding:36px 22px}}
+</style>
+</head>
+<body>
+<div class="notfound">
+  <div class="nf-card reveal in">
+    <div class="nf-404">404</div>
+    <div class="nf-title">Page not found</div>
+    <p class="nf-desc">The page you are looking for does not exist or has been moved.<br>Explore our premium food catalog instead.</p>
+    <div class="nf-actions">
+      <a class="nf-primary" href="/">Back to Home</a>
+      <a class="nf-secondary" href="/brands.php">Browse Brands</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,566 @@
+[
+    {
+        "image": "brands\/groceries\/7boys logo - Edited.png",
+        "name": "7 Boys",
+        "category": "groceries",
+        "slug": "7-boys"
+    },
+    {
+        "image": "brand-1.webp",
+        "name": "7Up",
+        "category": "beverages",
+        "slug": "7up"
+    },
+    {
+        "image": "brand-2.webp",
+        "name": "arizona",
+        "category": "beverages",
+        "slug": "arizona"
+    },
+    {
+        "image": "brand-3.webp",
+        "name": "bonko",
+        "category": "beverages",
+        "slug": "bonko"
+    },
+    {
+        "image": "brand-4.webp",
+        "name": "bracia-sadownicy",
+        "category": "beverages",
+        "slug": "bracia-sadownicy"
+    },
+    {
+        "image": "brand-5.webp",
+        "name": "Burn-Emblem",
+        "category": "beverages",
+        "slug": "burn-emblem"
+    },
+    {
+        "image": "brand-6.webp",
+        "name": "Canada_Dry",
+        "category": "beverages",
+        "slug": "canada-dry"
+    },
+    {
+        "image": "brand-7.svg",
+        "name": "Capri-Sun",
+        "category": "beverages",
+        "slug": "capri-sun"
+    },
+    {
+        "image": "brand-8.svg",
+        "name": "Coca-Cola",
+        "category": "beverages",
+        "slug": "coca-cola"
+    },
+    {
+        "image": "brand-9.webp",
+        "name": "coconaut",
+        "category": "beverages",
+        "slug": "coconaut"
+    },
+    {
+        "image": "brand-10.webp",
+        "name": "corona-cero",
+        "category": "beverages",
+        "slug": "corona-cero"
+    },
+    {
+        "image": "brand-11.svg",
+        "name": "Dr_Pepper",
+        "category": "beverages",
+        "slug": "dr-pepper"
+    },
+    {
+        "image": "brand-12.webp",
+        "name": "drwitt",
+        "category": "beverages",
+        "slug": "drwitt"
+    },
+    {
+        "image": "brand-13.svg",
+        "name": "Evian",
+        "category": "beverages",
+        "slug": "evian"
+    },
+    {
+        "image": "brand-14.png",
+        "name": "fan",
+        "category": "beverages",
+        "slug": "fan"
+    },
+    {
+        "image": "brand-15.webp",
+        "name": "Fanta",
+        "category": "beverages",
+        "slug": "fanta"
+    },
+    {
+        "image": "brand-16.webp",
+        "name": "fiji",
+        "category": "beverages",
+        "slug": "fiji"
+    },
+    {
+        "image": "brand-17.svg",
+        "name": "Gatorade",
+        "category": "beverages",
+        "slug": "gatorade"
+    },
+    {
+        "image": "brand-18.webp",
+        "name": "gfuel",
+        "category": "beverages",
+        "slug": "gfuel"
+    },
+    {
+        "image": "brand-19.webp",
+        "name": "heineken",
+        "category": "beverages",
+        "slug": "heineken"
+    },
+    {
+        "image": "brand-20.webp",
+        "name": "jelly-b",
+        "category": "beverages",
+        "slug": "jelly-b"
+    },
+    {
+        "image": "brand-21.webp",
+        "name": "jungle fruits",
+        "category": "beverages",
+        "slug": "jungle-fruits"
+    },
+    {
+        "image": "brand-22.webp",
+        "name": "Kinley",
+        "category": "beverages",
+        "slug": "kinley"
+    },
+    {
+        "image": "brand-23.webp",
+        "name": "Lipton",
+        "category": "beverages",
+        "slug": "lipton"
+    },
+    {
+        "image": "brand-24.webp",
+        "name": "liquid death",
+        "category": "beverages",
+        "slug": "liquid-death"
+    },
+    {
+        "image": "brand-25.webp",
+        "name": "tiger",
+        "category": "beverages",
+        "slug": "tiger"
+    },
+    {
+        "image": "brand-26.webp",
+        "name": "madam hong",
+        "category": "beverages",
+        "slug": "madam-hong"
+    },
+    {
+        "image": "brand-27.webp",
+        "name": "Mirinda",
+        "category": "beverages",
+        "slug": "mirinda"
+    },
+    {
+        "image": "brand-28.webp",
+        "name": "mtn dew",
+        "category": "beverages",
+        "slug": "mtn-dew"
+    },
+    {
+        "image": "brand-29.webp",
+        "name": "nestea",
+        "category": "beverages",
+        "slug": "nestea"
+    },
+    {
+        "image": "brand-30.webp",
+        "name": "old jamaica",
+        "category": "beverages",
+        "slug": "old-jamaica"
+    },
+    {
+        "image": "brand-31.webp",
+        "name": "orangina",
+        "category": "beverages",
+        "slug": "orangina"
+    },
+    {
+        "image": "brand-32.webp",
+        "name": "oshee",
+        "category": "beverages",
+        "slug": "oshee"
+    },
+    {
+        "image": "brand-33.png",
+        "name": "pepsi",
+        "category": "beverages",
+        "slug": "pepsi"
+    },
+    {
+        "image": "brand-34.webp",
+        "name": "perrier",
+        "category": "beverages",
+        "slug": "perrier"
+    },
+    {
+        "image": "brand-35.webp",
+        "name": "powerade",
+        "category": "beverages",
+        "slug": "powerade"
+    },
+    {
+        "image": "brand-36.webp",
+        "name": "prime",
+        "category": "beverages",
+        "slug": "prime"
+    },
+    {
+        "image": "brand-37.webp",
+        "name": "redbull",
+        "category": "beverages",
+        "slug": "redbull"
+    },
+    {
+        "image": "brand-38.svg",
+        "name": "Rockstar",
+        "category": "beverages",
+        "slug": "rockstar"
+    },
+    {
+        "image": "brand-39.webp",
+        "name": "S.Pellegrino",
+        "category": "beverages",
+        "slug": "s-pellegrino"
+    },
+    {
+        "image": "brand-40.webp",
+        "name": "Schweppes",
+        "category": "beverages",
+        "slug": "schweppes"
+    },
+    {
+        "image": "brand-41.webp",
+        "name": "Sprite",
+        "category": "beverages",
+        "slug": "sprite"
+    },
+    {
+        "image": "brand-42.webp",
+        "name": "tango",
+        "category": "beverages",
+        "slug": "tango"
+    },
+    {
+        "image": "brand-43.webp",
+        "name": "toxix waste",
+        "category": "beverages",
+        "slug": "toxix-waste"
+    },
+    {
+        "image": "brand-44.webp",
+        "name": "tymbark",
+        "category": "beverages",
+        "slug": "tymbark"
+    },
+    {
+        "image": "brand-45.webp",
+        "name": "veroni",
+        "category": "beverages",
+        "slug": "veroni"
+    },
+    {
+        "image": "brand-46-c50d21.webp",
+        "name": "vitamizu",
+        "category": "beverages",
+        "slug": "vitamizu"
+    },
+    {
+        "image": "brand-47.webp",
+        "name": "wareheads",
+        "category": "beverages",
+        "slug": "wareheads"
+    },
+    {
+        "image": "brand-48.webp",
+        "name": "xl",
+        "category": "beverages",
+        "slug": "xl"
+    },
+    {
+        "image": "brand-49.webp",
+        "name": "zbyszko",
+        "category": "beverages",
+        "slug": "zbyszko"
+    },
+    {
+        "image": "brand-50.webp",
+        "name": "7days",
+        "category": "groceries",
+        "slug": "7days"
+    },
+    {
+        "image": "brand-51.svg",
+        "name": "Barilla",
+        "category": "groceries",
+        "slug": "barilla"
+    },
+    {
+        "image": "brand-52.svg",
+        "name": "Cheetos",
+        "category": "groceries",
+        "slug": "cheetos"
+    },
+    {
+        "image": "brand-53.webp",
+        "name": "crunchhips",
+        "category": "groceries",
+        "slug": "crunchhips"
+    },
+    {
+        "image": "brand-54.png",
+        "name": "Alanabi",
+        "category": "groceries",
+        "slug": "alanabi"
+    },
+    {
+        "image": "brand-55.jpg",
+        "name": "Badia",
+        "category": "groceries",
+        "slug": "badia"
+    },
+    {
+        "image": "brand-56.jpg",
+        "name": "Condito",
+        "category": "groceries",
+        "slug": "condito"
+    },
+    {
+        "image": "brand-57.png",
+        "name": "crying thaiger",
+        "category": "groceries",
+        "slug": "crying-thaiger"
+    },
+    {
+        "image": "brand-58.webp",
+        "name": "Doritos",
+        "category": "groceries",
+        "slug": "doritos"
+    },
+    {
+        "image": "brand-59.webp",
+        "name": "elgusto",
+        "category": "groceries",
+        "slug": "elgusto"
+    },
+    {
+        "image": "brand-60.webp",
+        "name": "felix",
+        "category": "groceries",
+        "slug": "felix"
+    },
+    {
+        "image": "brand-61.png",
+        "name": "HUIZER KASS GILDE",
+        "category": "groceries",
+        "slug": "huizer-kass-gilde"
+    },
+    {
+        "image": "brand-62.webp",
+        "name": "jimms",
+        "category": "groceries",
+        "slug": "jimms"
+    },
+    {
+        "image": "brand-63.svg",
+        "name": "Kelloggs",
+        "category": "groceries",
+        "slug": "kelloggs"
+    },
+    {
+        "image": "brand-64.webp",
+        "name": "krakus",
+        "category": "groceries",
+        "slug": "krakus"
+    },
+    {
+        "image": "brand-65.webp",
+        "name": "lajkonik",
+        "category": "groceries",
+        "slug": "lajkonik"
+    },
+    {
+        "image": "brand-66.webp",
+        "name": "Lays",
+        "category": "groceries",
+        "slug": "lays"
+    },
+    {
+        "image": "brand-67.svg",
+        "name": "Queso Mozarella",
+        "category": "groceries",
+        "slug": "queso-mozarella"
+    },
+    {
+        "image": "brand-68.webp",
+        "name": "TUC",
+        "category": "groceries",
+        "slug": "tuc"
+    },
+    {
+        "image": "brand-69.jpg",
+        "name": "Mondelle",
+        "category": "groceries",
+        "slug": "mondelle"
+    },
+    {
+        "image": "brand-70.webp",
+        "name": "lorenz snack world",
+        "category": "groceries",
+        "slug": "lorenz-snack-world"
+    },
+    {
+        "image": "brand-71.webp",
+        "name": "lowicz",
+        "category": "groceries",
+        "slug": "lowicz"
+    },
+    {
+        "image": "brand-72.webp",
+        "name": "mamba",
+        "category": "groceries",
+        "slug": "mamba"
+    },
+    {
+        "image": "brand-73.jpg",
+        "name": "MAZZA",
+        "category": "groceries",
+        "slug": "mazza"
+    },
+    {
+        "image": "brand-74.svg",
+        "name": "Mentos",
+        "category": "groceries",
+        "slug": "mentos"
+    },
+    {
+        "image": "brand-75.svg",
+        "name": "Monin",
+        "category": "groceries",
+        "slug": "monin"
+    },
+    {
+        "image": "brand-76.svg",
+        "name": "Nesquik",
+        "category": "groceries",
+        "slug": "nesquik"
+    },
+    {
+        "image": "brand-77.webp",
+        "name": "obst",
+        "category": "groceries",
+        "slug": "obst"
+    },
+    {
+        "image": "brand-78.webp",
+        "name": "Orbit",
+        "category": "groceries",
+        "slug": "orbit"
+    },
+    {
+        "image": "brand-79.webp",
+        "name": "panzani",
+        "category": "groceries",
+        "slug": "panzani"
+    },
+    {
+        "image": "brand-80.png",
+        "name": "PASTA PRAI",
+        "category": "groceries",
+        "slug": "pasta-prai"
+    },
+    {
+        "image": "brand-81.svg",
+        "name": "Pringles",
+        "category": "groceries",
+        "slug": "pringles"
+    },
+    {
+        "image": "brand-82.webp",
+        "name": "przysnacki",
+        "category": "groceries",
+        "slug": "przysnacki"
+    },
+    {
+        "image": "brand-83.svg",
+        "name": "Ricola",
+        "category": "groceries",
+        "slug": "ricola"
+    },
+    {
+        "image": "brand-84.webp",
+        "name": "riomare",
+        "category": "groceries",
+        "slug": "riomare"
+    },
+    {
+        "image": "brand-85.webp",
+        "name": "salza",
+        "category": "groceries",
+        "slug": "salza"
+    },
+    {
+        "image": "brand-86.webp",
+        "name": "samyang",
+        "category": "groceries",
+        "slug": "samyang"
+    },
+    {
+        "image": "brand-87.webp",
+        "name": "skittles",
+        "category": "groceries",
+        "slug": "skittles"
+    },
+    {
+        "image": "brand-88.webp",
+        "name": "star-chips",
+        "category": "groceries",
+        "slug": "star-chips"
+    },
+    {
+        "image": "brand-89.webp",
+        "name": "takis",
+        "category": "groceries",
+        "slug": "takis"
+    },
+    {
+        "image": "brand-90.webp",
+        "name": "Tic-Tac",
+        "category": "groceries",
+        "slug": "tic-tac"
+    },
+    {
+        "image": "brand-91.webp",
+        "name": "turka",
+        "category": "groceries",
+        "slug": "turka"
+    },
+    {
+        "image": "brand-92.webp",
+        "name": "weetabix",
+        "category": "groceries",
+        "slug": "weetabix"
+    },
+    {
+        "image": "brand-93.png",
+        "name": "Festiva",
+        "category": "groceries",
+        "slug": "festiva"
+    }
+]

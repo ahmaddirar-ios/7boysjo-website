@@ -1,0 +1,86 @@
+# 7 Boys website - Apache/LiteSpeed configuration (Hostinger) - CLEANED 2026-09-04
+DirectoryIndex index.php index.html
+AddDefaultCharset UTF-8
+
+# Block sensitive files - return 403 before rewrite
+<FilesMatch "\.(env|zip|sql|bak|log|ini)$">
+  Require all denied
+</FilesMatch>
+# Also catch backup-style names like file.php.bak_20260911_0143 / file~ / file.tmp anywhere
+<FilesMatch "(\.bak|~|\.tmp|\.swp|\.orig|\.save)[^.]*$">
+  Require all denied
+</FilesMatch>
+RewriteRule ^(backup|data|\.env|\.git) - [F,L]
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # legacy /panel/ disabled - use /admin/ (see panel/README_DEPRECATED.txt)
+  RewriteRule ^panel/ - [R=404,L]
+  RewriteCond %{HTTPS} off
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  RewriteCond %{REQUEST_URI} !^/admin/
+  RewriteRule ^product-(.+)\.html$ /product.php?slug=$1 [L,R=301]
+  RewriteRule ^brand-(.+)\.html$ /brands.php?brand=$1 [L,R=301,NE]
+  RewriteRule ^index.html$ / [L,R=301]
+  RewriteRule ^brands\.html$ /brands.php [L,R=301]
+  RewriteRule ^about\.html$ /story.php [L,R=301]
+  RewriteRule ^categories/(.+)\.html$ /category.php?cat=$1 [L,R=301]
+  RewriteRule ^categories/index\.html$ /category.php [L,R=301]
+  # Soft 404 fix: unknown paths return real 404, not home 200
+  ErrorDocument 404 /404.html
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !^/404\.html
+  RewriteCond %{REQUEST_URI} !^/api/
+  RewriteRule ^ - [R=404,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|php)$">
+    Header set Cache-Control "no-store, no-cache, must-revalidate"
+    Header set Pragma "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "public, max-age=2592000, must-revalidate"
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/jpg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/gif "access plus 1 month"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  <IfModule mod_rewrite.c>
+  # WebP negotiation: serve .webp when browser supports it
+  RewriteCond %{HTTP_ACCEPT} image/webp
+  RewriteCond %{REQUEST_FILENAME} (.*)\.(jpe?g|png)$ [NC]
+  RewriteCond %1.webp -f
+  RewriteRule ^ %1.webp [T=image/webp,L]
+</IfModule>
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+</IfModule>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://translate.google.com https://translate.googleapis.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data: https:; font-src 'self' data: https://fonts.gstatic.com; connect-src 'self' https:; frame-src 'self' https://translate.google.com https://translate.googleapis.com https://www.google.com https://maps.google.com; frame-ancestors 'self'; upgrade-insecure-requests"
+</IfModule>
+
+# Defense-in-depth: never serve /docs/ from docroot (moved to backups_archive 2026-09-18)
+<IfModule mod_rewrite.c>
+  RewriteRule ^docs/ - [R=404,L]
+</IfModule>

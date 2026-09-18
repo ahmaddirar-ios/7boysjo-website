@@ -1,0 +1,46 @@
+{
+  "hero_title": "Premium Food & Beverage Distribution",
+  "hero_sub": "Rubu Al Quds for Trading & Food Industries — bringing the world's finest brands to the Levant since 1966.",
+  "about": "Established in 1966 in the heart of Amman's Al-Abdali district, Rubu Al Quds has grown from a family-owned enterprise into one of the region's most trusted food import, distribution and brand-management houses. Across three generations we have built an end-to-end supply chain — from global sourcing and international trade to HORECA and retail delivery — representing the world's most renowned food and beverage brands under our own flagship 7 Boys® label and through exclusive regional partnerships.",
+  "why": "Wide range of premium products | Competitive direct-import pricing | Fresh stock & fast delivery | Customizable private labeling | Certification & logistics assistance | delivery across the Levant",
+  "stats": [
+    {
+      "num": "1966",
+      "lbl": "Established"
+    },
+    {
+      "num": "2700+",
+      "lbl": "Products In Stock"
+    },
+    {
+      "num": "200+",
+      "lbl": "Global Brands"
+    },
+    {
+      "num": "3",
+      "lbl": "Generations"
+    }
+  ],
+  "timeline": [
+    {
+      "yr": "1966",
+      "h": "The Beginning",
+      "p": "Founded in Al-Abdali, Amman as a family-owned food trading house."
+    },
+    {
+      "yr": "1990s",
+      "h": "Regional Expansion",
+      "p": "Became a leading FMCG distributor across the Levant."
+    },
+    {
+      "yr": "2010s",
+      "h": "Global Sourcing",
+      "p": "Direct import partnerships with +200 renowned European & global brands."
+    },
+    {
+      "yr": "Today",
+      "h": "7 Boys® Flagship",
+      "p": "Proprietary gourmet line: cheeses, olives, capers, anchovies & more."
+    }
+  ]
+}

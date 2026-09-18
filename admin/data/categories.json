@@ -1,0 +1,93 @@
+[
+    {
+        "slug": "food",
+        "name": "Food",
+        "sub": [
+            {
+                "slug": "sweets",
+                "name": "Sweets",
+                "ar": "حلويات"
+            },
+            {
+                "slug": "beverages",
+                "name": "Beverages",
+                "ar": "مشروبات"
+            },
+            {
+                "slug": "coffee",
+                "name": "Coffee",
+                "ar": "قهوة"
+            },
+            {
+                "slug": "groceries",
+                "name": "Groceries",
+                "ar": "بقالة"
+            },
+            {
+                "slug": "ice-cream",
+                "name": "Ice Cream",
+                "ar": "بوظة"
+            },
+            {
+                "slug": "duty-free-products",
+                "name": "Duty Free Products",
+                "ar": "منتجات السوق الحرة"
+            }
+        ],
+        "ar": "طعام"
+    },
+    {
+        "slug": "non-food",
+        "name": "Non food",
+        "sub": [
+            {
+                "slug": "cleaning",
+                "name": "Cleaning",
+                "ar": "تنظيف"
+            },
+            {
+                "slug": "laundry",
+                "name": "Laundry",
+                "ar": "غسيل"
+            },
+            {
+                "slug": "hygiene",
+                "name": "Hygiene",
+                "ar": "عناية ونظافة"
+            }
+        ],
+        "ar": "غير غذائية"
+    },
+    {
+        "slug": "pet-food",
+        "name": "Pet food",
+        "sub": [
+            {
+                "slug": "cat-food",
+                "name": "Cat food",
+                "ar": "طعام القطط"
+            },
+            {
+                "slug": "dog-food",
+                "name": "Dog food",
+                "ar": "طعام الكلاب"
+            }
+        ],
+        "ar": "طعام الحيوانات"
+    },
+    {
+        "slug": "best-offers",
+        "name": "Best offers",
+        "ar": "أفضل العروض"
+    },
+    {
+        "slug": "new-products",
+        "name": "New products",
+        "ar": "منتجات جديدة"
+    },
+    {
+        "slug": "our-exclusive-range",
+        "name": "Our Exclusive Range",
+        "ar": "تشكيلتنا الحصرية"
+    }
+]

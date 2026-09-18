@@ -1,0 +1,18 @@
+{
+    "nav_categories": [
+        "beverages",
+        "sweets",
+        "gourmet",
+        "staples"
+    ],
+    "nav_brands": [
+        "coca-cola"
+    ],
+    "brands_in_dropdown": 12,
+    "products_per_dropdown": 6,
+    "cta_text": "Request a Quote",
+    "cta_link": "\/quote.php",
+    "cta_visible": true,
+    "dropdown_behavior": "hover",
+    "dropdown_animation": 180
+}

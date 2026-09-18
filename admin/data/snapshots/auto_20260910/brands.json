@@ -1,0 +1,115 @@
+[
+    {
+        "slug": "7-boys",
+        "name": "7 Boys",
+        "cat": "food",
+        "image": "brands\/groceries\/7boys logo - Edited.png",
+        "logo": "brands\/groceries\/7boys logo - Edited.png"
+    },
+    {
+        "slug": "weetabix",
+        "name": "WEETABIX",
+        "logo": ""
+    },
+    {
+        "slug": "nestle",
+        "name": "NESTLE",
+        "logo": ""
+    },
+    {
+        "slug": "lorenz",
+        "name": "LORENZ",
+        "logo": ""
+    },
+    {
+        "slug": "vegeta",
+        "name": "VEGETA",
+        "logo": ""
+    },
+    {
+        "slug": "starbucks",
+        "name": "STARBUCKS",
+        "logo": ""
+    },
+    {
+        "slug": "lavazza",
+        "name": "LAVAZZA",
+        "logo": ""
+    },
+    {
+        "slug": "reese-s",
+        "name": "REESE'S",
+        "logo": ""
+    },
+    {
+        "slug": "ferrero-rocher",
+        "name": "FERRERO ROCHER",
+        "logo": ""
+    },
+    {
+        "slug": "nesquik",
+        "name": "NESQUIK",
+        "logo": ""
+    },
+    {
+        "slug": "pampers",
+        "name": "PAMPERS",
+        "logo": ""
+    },
+    {
+        "slug": "colgate",
+        "name": "COLGATE",
+        "logo": ""
+    },
+    {
+        "slug": "listerine",
+        "name": "LISTERINE",
+        "logo": ""
+    },
+    {
+        "slug": "finish",
+        "name": "FINISH",
+        "logo": ""
+    },
+    {
+        "slug": "ajax",
+        "name": "AJAX",
+        "logo": ""
+    },
+    {
+        "slug": "dolce-gusto",
+        "name": "DOLCE GUSTO",
+        "cat": "coffee",
+        "image": "brand-dolce-gusto.png"
+    },
+    {
+        "slug": "jacobs",
+        "name": "JACOBS",
+        "cat": "coffee",
+        "image": "brand-jacobs.png"
+    },
+    {
+        "slug": "nescafe",
+        "name": "NESCAFE",
+        "cat": "coffee",
+        "image": "brand-nescafe.png"
+    },
+    {
+        "slug": "senseo",
+        "name": "SENSEO",
+        "cat": "coffee",
+        "image": "brand-senseo.png"
+    },
+    {
+        "slug": "m-venpick",
+        "name": "MÖVENPICK",
+        "cat": "coffee",
+        "image": "brand-m-venpick.png"
+    },
+    {
+        "slug": "galaxy",
+        "name": "GALAXY",
+        "cat": "coffee",
+        "image": "brand-galaxy.png"
+    }
+]
