@@ -8,3 +8,6 @@
 <FilesMatch "\.(db|sqlite|sqlite3)$" >
   Require all denied
 </FilesMatch>
+<FilesMatch "^(dashboard|orders|orders_ajax|inventory|customers|theme|seo|notifications|layout)\.php$">
+  Require all granted
+</FilesMatch>
