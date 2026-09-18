@@ -592,30 +592,7 @@ th{background:#053d20;color:#fff;}
 .feat{display:inline-block;background:#053d20;color:#fff;border-radius:10px;padding:1px 7px;font-size:11px;margin-left:4px;}
 .brand-head{display:flex;align-items:center;gap:10px;padding:16px 16px 14px;}.brand-head img{width:42px;height:42px;object-fit:contain;background:#fff;border-radius:11px;padding:3px;flex:none;}.brand-head span{color:#fff;font-size:19px;font-weight:800;letter-spacing:.01em;}</style></head>
 <body>
-<div class="mobilebar"><button class="menu-btn" onclick="document.querySelector('.sidebar').classList.toggle('open')">☰</button><img src="/assets/img/logo-header.png" alt="" style="width:26px;height:26px;object-fit:contain;background:#fff;border-radius:7px;padding:2px;vertical-align:-8px;margin-right:6px;"><b>7 Boys® Admin</b></div>
-<div class="sidebar">
-<div class="brand-head"><img src="/assets/img/logo-header.png" alt="7 Boys"><span>7 Boys®</span></div>
-<a href="index.php?action=dashboard" class="<?= $action==='dashboard'?'active':'' ?>">🏠 Dashboard</a>
-<a href="index.php?action=brands" class="<?= $action==='brands'?'active':'' ?>">Brands</a>
-<a href="index.php?action=products" class="<?= $action==='products'?'active':'' ?>">📦 Products</a>
-<a href="index.php?action=cats" class="<?= $action==='cats'?'active':'' ?>">🗂️ Categories</a>
-<a href="catalog.php" class="">📚 Catalog</a>
-<a href="index.php?action=home" class="<?= $action==='home'?'active':'' ?>">🖼️ Homepage</a>
-<a href="index.php?action=media" class="<?= $action==='media'?'active':'' ?>">🎞️ Media</a>
-<a href="index.php?action=messages" class="<?= $action==='messages'?'active':'' ?>">✉️ Messages<?php $unread=count(array_filter($msgs,fn($m)=>(($m['read']??false)!==true))); if($unread): ?><span class="badge"><?= $unread ?></span><?php endif; ?></a>
-<a href="index.php?action=quotes" class="<?= $action==='quotes'?'active':'' ?>">🧾 Quotes<?php $qc=count($quotes_data ?? []); if($qc): ?><span class="badge"><?= $qc ?></span><?php endif; ?></a>
-<a href="index.php?action=backup" class="<?= $action==='backup'?'active':'' ?>">💾 Backup</a>
-<a href="index.php?action=options" class="<?= $action==='options'?'active':'' ?>">🧩 Site Options</a>
-<a href="index.php?action=visitors" class="<?= $action==='visitors'?'active':'' ?>">👥 Clients<?php $vc=count(load_visitors()); if($vc): ?><span class="badge"><?= $vc ?></span><?php endif; ?></a>
-<a href="index.php?action=employees" class="<?= $action==='employees'?'active':'' ?>">🧑‍💼 Employees<?php $ec=count(load_json(SITE_DIR.'/admin/data/employees.json')); if($ec): ?><span class="badge"><?= $ec ?></span><?php endif; ?></a>
-<a href="index.php?action=users" class="<?= $action==='users'?'active':'' ?>">👤 Users</a>
-<a href="index.php?action=notify" class="<?= $action==='notify'?'active':'' ?>">🔔 Notifications</a>
-<a href="index.php?action=settings" class="<?= $action==='settings'?'active':'' ?>">⚙️ Settings</a>
-<a href="index.php?action=publish" class="<?= $action==='publish'?'active':'' ?>">🚀 Publish Site</a>
-<a href="index.php?action=health" class="<?= $action==='health'?'active':'' ?>">🩺 Health</a>
-<a href="index.php?action=audit" class="<?= $action==='audit'?'active':'' ?>">📜 Audit Log</a>
-<a href="login.php?logout=1" class="logout">🚪 Logout</a>
-</div>
+<?php include 'sidebar.php'; ?>
 <div class="main">
 <form method="get" action="index.php" class="topsearch" style="margin:0 0 12px;display:flex;gap:8px;"><input type="hidden" name="action" value="search"><input type="text" name="q" value="<?= esc($_GET['q'] ?? '') ?>" placeholder="🔍 Search products, brands, categories…" style="flex:1;padding:9px 12px;border:1px solid #d1d5db;border-radius:8px;"><button style="background:#053d20;color:#fff;border:none;border-radius:8px;padding:9px 16px;cursor:pointer;">Search</button></form>
 <?php if($msg) echo "<div class='msg'>".esc($msg)."</div>"; ?>
